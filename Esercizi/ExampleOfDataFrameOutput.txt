@@ -1,0 +1,8 @@
+!This is a copy of the file /Users/marialaura/Desktop/Esercizi/ExampleOfDataFrame-2.txt
+!We could have done something more complex than this
+Rows: 2
+Cols: 2
+Names: a b 
+Units: [-] [-] 
+1.0	-3.0	
+2.0	4.76	
