@@ -40,10 +40,8 @@ public class DataNeve {
 		
 		/**
 		 * This first part is necessary to obtain the dimensions of the csv file
-		 * dataRow is the single string of the file read by the CSVReader 
+		 * dataRow is a single string line of the file read by the CSVReader 
 		 * cols and rows are the dimensions of the dataframe
-		 * vls is the matrix of cols*rows dimensions in which will be stored 
-		 * the values of the dataframe 
 		 * 
 		 */
 	    
@@ -58,9 +56,9 @@ public class DataNeve {
 		
 		/**
 		 * In this second part we must apply again the class CSVreader
-		 * in order to read again the csv file from the first line
-		 * vls is the matrix of cols*rows dimensions in which will be stored 
-		 * the values of the dataframe 
+		 * in order to read the csv file from the first line
+		 * vls is the matrix of cols*rows dimensions in which  
+		 * the values of the dataframe will be stored
 		 * 
 		 */
 		
@@ -83,7 +81,7 @@ public class DataNeve {
 			
 			/**
 			 * write the Data frame to a specified file (outputFileName)
-			 * in a specified format (in this case a csv file)
+			 * in a specified format (typeSeparator)
 			 * 
 			 */
 			
